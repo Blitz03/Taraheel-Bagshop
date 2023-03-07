@@ -1,0 +1,5 @@
+{
+  "origin": "*",
+  "methods": ["GET", "HEAD", "PUT", "POST", "DELETE"],
+  "allowCredentials": true
+}

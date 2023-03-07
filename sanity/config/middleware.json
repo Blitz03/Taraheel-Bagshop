@@ -1,0 +1,5 @@
+{
+  "name": "cors",
+  "path": "/",
+  "cors": true
+}
