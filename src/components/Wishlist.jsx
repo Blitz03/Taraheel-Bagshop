@@ -26,7 +26,7 @@ export default function Wishlist() {
     return () => {
       clearTimeout(timer);
     };
-  }, [message]);
+  }, [message, setMessage]);
 
   return (
     <>

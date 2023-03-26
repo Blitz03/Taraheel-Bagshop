@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { fetchProducts } from "./lib/client";
 import landing01 from "./images/landing-01.jpg";
@@ -88,13 +88,13 @@ function AppProvider({ children }) {
     setCurrentSlide(index);
   };
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     if (currentSlide === slides.length - 1) {
       setCurrentSlide(0);
     } else {
       setCurrentSlide(currentSlide + 1);
     }
-  };
+  }, [currentSlide, slides.length]);
 
   const prevSlide = () => {
     if (currentSlide === 0) {

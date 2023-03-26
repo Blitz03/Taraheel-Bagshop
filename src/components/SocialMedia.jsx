@@ -13,7 +13,8 @@ export default function SocialMedia() {
         <a
           href="https://www.facebook.com/profile.php?id=100003786093370"
           target="_blank"
-          className="facebook">
+          className="facebook"
+          rel="noopener">
           <AiFillFacebook />
         </a>
       </li>
@@ -21,7 +22,8 @@ export default function SocialMedia() {
         <a
           href="https://twitter.com/fcnovapro"
           target="_blank"
-          className="twitter">
+          className="twitter"
+          rel="noopener">
           <AiOutlineTwitter />
         </a>
       </li>
@@ -29,7 +31,8 @@ export default function SocialMedia() {
         <a
           href="https://www.tiktok.com/@fcnova"
           target="_blank"
-          className="tiktok">
+          className="tiktok"
+          rel="noopener">
           <FaTiktok />
         </a>
       </li>
@@ -37,7 +40,8 @@ export default function SocialMedia() {
         <a
           href="https://www.instagram.com/fcnova.pro/"
           target="_blank"
-          className="instagram">
+          className="instagram"
+          rel="noopener">
           <AiOutlineInstagram />
         </a>
       </li>
@@ -45,7 +49,8 @@ export default function SocialMedia() {
         <a
           href="https://www.youtube.com/@fc-nova"
           target="_blank"
-          className="youtube">
+          className="youtube"
+          rel="noopener">
           <AiFillYoutube />
         </a>
       </li>

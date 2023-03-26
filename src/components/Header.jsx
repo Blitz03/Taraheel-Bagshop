@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { AppContext } from "../context";
 import { NavLink } from "react-router-dom";
 import { FiHeart } from "react-icons/fi";

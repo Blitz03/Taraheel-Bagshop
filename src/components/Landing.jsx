@@ -3,7 +3,7 @@ import { AppContext } from "../context";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 export default function Landing() {
-  const { currentSlide, renderSlides, renderDots, nextSlide, prevSlide } =
+  const { renderSlides, renderDots, nextSlide, prevSlide } =
     useContext(AppContext);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function Landing() {
     }, 3700);
 
     return () => clearInterval(interval);
-  }, [currentSlide]);
+  }, [nextSlide]);
 
   return (
     <section className="landing">

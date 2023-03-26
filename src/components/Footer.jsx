@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
         <h4>
           Copyright © 2023. Made by{" "}
-          <a href="https://pingtm.co/" target="_blank">
+          <a href="https://pingtm.co/" target="_blank" rel="noreferrer">
             PiNG
           </a>
         </h4>

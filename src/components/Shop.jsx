@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { AppContext } from "../context";
 import Footer from "./Footer";
 import Product from "./Product";
