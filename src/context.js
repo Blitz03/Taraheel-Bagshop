@@ -235,8 +235,8 @@ function AppProvider({ children }) {
         .redirectToCheckout({
           lineItems: lineItems,
           mode: "payment",
-          successUrl: "http://localhost:3000/",
-          cancelUrl: "http://localhost:3000/",
+          successUrl: "https://taraheel.netlify.app/",
+          cancelUrl: "https://taraheel.netlify.app/",
         })
         .then((response) => {
           console.log(response.error);
